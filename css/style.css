@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-image: url("../images/nature.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+    height: 100%;
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 250px;
+    padding: 10px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: cursive;
+}
+
+#dropdown {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    border-radius: 250px;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px;
+    width: 100%;
+}
+
+option {
+    background-color: gray;
+    color: #fff;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+form#survey-form {
+    margin: auto;
+    width: 25%;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+textarea {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: cursive;
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 250px;
+    color: white;
+    font-family: cursive;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+p#about {
+    padding-top: 25px;
+}
+
+label {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p#credit {
+    font-size: 13px;
+}

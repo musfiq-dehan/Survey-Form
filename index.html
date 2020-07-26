@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill up this form</p>
+    </header>
+    
+    <form id="survey-form" autocomplete="off">
+        <label for="name" id="name-label">Name</label><br>
+        <input class="input-field" id="name" name="name" type="text" placeholder="Enter Your Name" required><br>
+
+        <label for="email" id="email-label">Email</label><br>
+        <input class="input-field" id="email" name="email" type="email" placeholder="Enter Your Email" required><br>
+
+        <label for="age" id="number-label">Age (optional)</label><br>
+        <input class="input-field" id="number" name="age" type="number" min="13" max="65"
+            placeholder="Enter Your Age"><br>
+
+        <label for="dropdown">Which option best describes your current role?</label><br>
+        <select name="dropdown" id="dropdown" required>
+            <option value="" disabled selected hidden>Select an option</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="employee">Employee</option>
+            <option value="owner">Owner</option>
+        </select>
+
+        <p>Please Select Your Gender:</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+        
+
+        <p>What language you want to learn ? </p>
+        <input type="checkbox" name="language" id="c" value="c">
+        <label for="c">C</label><br>
+        <input type="checkbox" name="language" id="cpp" value="cpp">
+        <label for="cpp">C++</label><br>
+        <input type="checkbox" name="language" id="java" value="java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" name="language" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" name="language" id="python" value="python">
+        <label for="python">Python</label><br>
+
+        <p id="about" for="about">Write About Yourself</p><br>
+        <textarea name="about" cols="30" rows="10">Write about yourself....</textarea><br>
+
+        <button id="submit" type="submit">Submit Response</button>
+    </form>
+        
+    <footer>
+        <p id="credit">
+            Made with ❤ by <a href="https://www.freecodecamp.org/musfiqdehan" target="_black">Musfiq</a> for <a
+                href="https://www.freecodecamp.org/" target="_black">freeCodeCamp</a>
+        </p>
+    </footer>   
+</body>
+</html>
